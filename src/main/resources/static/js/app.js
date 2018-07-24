@@ -8,7 +8,7 @@ function connect() {
     stompClient.connect({}, function (frame) {
         stompClient.subscribe('/topic/chat', function (payload) {
             console.log(payload);
-            showGreeting(JSON.parse(payload.body).content);
+            showGreeting(JSON.parse(payload.body).content, JSON.parse(payload.body).sendTime);
         });
     });
 }
@@ -25,11 +25,11 @@ function sendMessage(message) {
     $('#message-box').val('');
 }
 
-function showGreeting(message) {
+function showGreeting(message, sendTime) {
     var messageList = $("#message-list");
     messageList.append(
         '<div class="row" style="height: fit-content"><div class="col-sm-12 shadow-md bg-white" style="background-color: white; height: fit-content; margin-bottom: 8px; border-radius: 8px; word-break:break-all; ">' +
-        '   \n<p style="margin: 8px 5px 10px;line-height: normal; height: fit-content">' + message + '</p>\n' +
+        '   \n<p style="margin: 8px 5px 10px;line-height: normal; height: fit-content"><small>' + sendTime + '</small>' + message + '</p>\n' +
         '   \n</div>' +
         '</div>'
     );
