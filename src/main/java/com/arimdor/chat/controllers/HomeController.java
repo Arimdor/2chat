@@ -1,10 +1,6 @@
 package com.arimdor.chat.controllers;
 
-<<<<<<< HEAD
 import com.arimdor.chat.model.Message;
-=======
-import Model.Message;
->>>>>>> 636d5af5f8bba205496194c9b7da30cf37650941
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.messaging.handler.annotation.MessageMapping;
