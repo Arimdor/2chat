@@ -1,4 +1,4 @@
-package com.arimdor.chat.Model;
+package com.arimdor.chat.model;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

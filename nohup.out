@@ -76,7 +76,7 @@
 2018-07-12 00:09:01.166  INFO 8897 --- [  restartedMain] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/chat-socket/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
 2018-07-12 00:09:01.209  INFO 8897 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
 <<<<<<< HEAD
-2018-07-12 00:09:01.504  INFO 8897 --- [  restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public com.arimdor.chat.Model.Message com.arimdor.chat.controllers.HomeController.sendMessage(com.arimdor.chat.Model.Message)
+2018-07-12 00:09:01.504  INFO 8897 --- [  restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public com.arimdor.chat.model.Message com.arimdor.chat.controllers.HomeController.sendMessage(com.arimdor.chat.model.Message)
 =======
 2018-07-12 00:09:01.504  INFO 8897 --- [  restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public Model.Message com.arimdor.chat.controllers.HomeController.sendMessage(Model.Message)
 >>>>>>> 636d5af5f8bba205496194c9b7da30cf37650941
@@ -229,7 +229,7 @@
 2018-07-12 00:14:32.588  INFO 8897 --- [  restartedMain] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/chat-socket/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
 2018-07-12 00:14:32.605  INFO 8897 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
 <<<<<<< HEAD
-2018-07-12 00:14:32.668  INFO 8897 --- [  restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public com.arimdor.chat.Model.Message com.arimdor.chat.controllers.HomeController.sendMessage(com.arimdor.chat.Model.Message)
+2018-07-12 00:14:32.668  INFO 8897 --- [  restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public com.arimdor.chat.model.Message com.arimdor.chat.controllers.HomeController.sendMessage(com.arimdor.chat.model.Message)
 =======
 2018-07-12 00:14:32.668  INFO 8897 --- [  restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public Model.Message com.arimdor.chat.controllers.HomeController.sendMessage(Model.Message)
 >>>>>>> 636d5af5f8bba205496194c9b7da30cf37650941
@@ -427,7 +427,7 @@
 2018-07-12 04:06:40.309  INFO 10974 --- [  restartedMain] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/chat-socket/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
 2018-07-12 04:06:40.349  INFO 10974 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
 <<<<<<< HEAD
-2018-07-12 04:06:40.621  INFO 10974 --- [  restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public com.arimdor.chat.Model.Message com.arimdor.chat.controllers.HomeController.sendMessage(com.arimdor.chat.Model.Message)
+2018-07-12 04:06:40.621  INFO 10974 --- [  restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public com.arimdor.chat.model.Message com.arimdor.chat.controllers.HomeController.sendMessage(com.arimdor.chat.model.Message)
 =======
 2018-07-12 04:06:40.621  INFO 10974 --- [  restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public Model.Message com.arimdor.chat.controllers.HomeController.sendMessage(Model.Message)
 >>>>>>> 636d5af5f8bba205496194c9b7da30cf37650941
@@ -1004,7 +1004,7 @@ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP
 2018-07-15 18:29:28.578  INFO 31049 --- [  restartedMain] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/chat-socket/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
 2018-07-15 18:29:28.619  INFO 31049 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
 <<<<<<< HEAD
-2018-07-15 18:29:28.908  INFO 31049 --- [  restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public com.arimdor.chat.Model.Message com.arimdor.chat.controllers.HomeController.sendMessage(com.arimdor.chat.Model.Message)
+2018-07-15 18:29:28.908  INFO 31049 --- [  restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public com.arimdor.chat.model.Message com.arimdor.chat.controllers.HomeController.sendMessage(com.arimdor.chat.model.Message)
 =======
 2018-07-15 18:29:28.908  INFO 31049 --- [  restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public Model.Message com.arimdor.chat.controllers.HomeController.sendMessage(Model.Message)
 >>>>>>> 636d5af5f8bba205496194c9b7da30cf37650941

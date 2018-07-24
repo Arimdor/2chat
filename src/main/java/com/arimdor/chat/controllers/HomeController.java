@@ -1,7 +1,7 @@
 package com.arimdor.chat.controllers;
 
 <<<<<<< HEAD
-import com.arimdor.chat.Model.Message;
+import com.arimdor.chat.model.Message;
 =======
 import Model.Message;
 >>>>>>> 636d5af5f8bba205496194c9b7da30cf37650941
