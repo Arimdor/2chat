@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #DADBD4;
+}
+
+.chat-container {
+    height: 100%;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    #content-ui {
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 100%;
+    }
+}
