@@ -1,6 +1,7 @@
 package com.arimdor.chat.controllers;
 
 import com.arimdor.chat.model.Message;
+import com.arimdor.chat.model.MorseMessage;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.messaging.handler.annotation.MessageMapping;
@@ -28,8 +29,8 @@ public class HomeController {
 
     @MessageMapping("/morse")
     @SendTo("/topic/morse")
-    public Message sendVibration(Message message) {
+    public MorseMessage sendVibration(Message message) {
         LOG.info(message.toString());
-        return new Message(message.getUser(), message.getContent());
+        return new MorseMessage(message.getUser(), message.getContent());
     }
 }
