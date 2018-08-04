@@ -25,4 +25,11 @@ public class HomeController {
         LOG.info(message.toString());
         return new Message(message.getUser(), message.getContent());
     }
+
+    @MessageMapping("/morse")
+    @SendTo("/topic/morse")
+    public Message sendVibration(Message message) {
+        LOG.info(message.toString());
+        return new Message(message.getUser(), message.getContent());
+    }
 }
